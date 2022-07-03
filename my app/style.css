@@ -1,0 +1,51 @@
+body {
+  background-color: #f6f655;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.container .inputBox {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container .inputBox #inputText {
+  width: 80%;
+  height: 30px;
+  font-size: 24px;
+  border: unset;
+}
+
+.container .inputBox .btn {
+  width: 20%;
+  height: 30px;
+  border-radius: 8px;
+  border: 3px;
+  margin: 5px;
+  background: #1ccf00;
+}
+
+.container .inputBox .btn :hover {
+  color: red;
+}

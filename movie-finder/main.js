@@ -7,17 +7,17 @@ const SEARCH_URL=BASE_URL+'/search/movie?'+API_KEY;
 
 
 getMovies(API_URL);
-async function getMovies(url){
+function getMovies(url){
 
-   await fetch(url).then(response => response.json()).then(data =>{
+   fetch(url).then(response => response.json()).then(data =>{
         console.log(data)
          showMovies(data.results);
      }) 
 
 
 }
-function showMovies(data){
-data.forEach(movies => {
+async function showMovies(data){
+await data.forEach(movies => {
     
     const movieContainer=document.querySelector(".movie-container");
 

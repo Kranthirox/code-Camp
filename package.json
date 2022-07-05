@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target":"ESNext",
+    "watch": true,
+    "lib": ["DOM" ,"ESNext"]
+},
+  "name": "jspk",
+  "version": "1.0.0",
+  "description": "todo list",
+  
+  "main": "app.js",
+  "dependencies": {
+    "typescript": "^4.7.3"
+  },
+  
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kranthirox/forms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kranthirox/forms/issues"
+  },
+  "homepage": "https://github.com/Kranthirox/forms#readme"
+}
